@@ -1,8 +1,27 @@
-.sidebor>h2{
+.sidebor h2{
   line-height: 64px;
   text-align: center;
   background-color: #ececec;
 }
 .logout{
-  
+
+}
+.sidebor{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100vh;
+}
+.sidebor .logout{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.logout>p{
+  margin: 0;
+}
+.logout>button{
+  width: 40%;
+  background-color: #FF9800;
+  line-height: 40px;
 }

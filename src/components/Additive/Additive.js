@@ -25,7 +25,7 @@ class Additive extends Component {
       <div className="additive">
         <Upload {...props}>
          <Button>
-           <Icon type="upload" /> Click to Upload
+           <Icon type="upload" /> 上传图片
          </Button>
        </Upload>
        <Unload/>

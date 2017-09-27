@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Table, Icon } from 'antd';
+import { Table } from 'antd';
 const columns = [
   {
       title: '菜品名称',
